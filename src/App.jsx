@@ -5,8 +5,12 @@ import HomePage from "./routes/homepage/homePage";
 function App() {
   return (
     <div className="layout">
-      <Navbar />
-      <HomePage />
+      <div className="navbar">
+        <Navbar />
+      </div>
+      <div className="content">
+        <HomePage />
+      </div>
     </div>
   );
 }
