@@ -1,3 +1,4 @@
+import SearchBar from "../../components/searchBar/SearchBar";
 import "./homePage.scss";
 
 function HomePage() {
@@ -5,17 +6,32 @@ function HomePage() {
     <div className="homePage">
       <div className="textContainer">
         <div className="wrapper">
-          <h1 className="title">協助您尋找理想的地點&房產</h1>
-          <p className="">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-            delectus itaque ea dolore debitis incidunt voluptas esse beatae
-            laudantium. Mollitia accusantium maiores ipsum debitis? Perferendis
-            nesciunt quia placeat dolorum vero!
+          <h1 className="title">Find Real Estate & Get Your Dream Place</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
+            explicabo suscipit cum eius, iure est nulla animi consequatur
+            facilis id pariatur fugit quos laudantium temporibus dolor ea
+            repellat provident impedit!
           </p>
+          <SearchBar />
+          <div className="boxes">
+            <div className="box">
+              <h1>16+</h1>
+              <h2>Years of Experience</h2>
+            </div>
+            <div className="box">
+              <h1>200</h1>
+              <h2>Award Gained</h2>
+            </div>
+            <div className="box">
+              <h1>2000+</h1>
+              <h2>Property Ready</h2>
+            </div>
+          </div>
         </div>
       </div>
       <div className="imgContainer">
-        <img src="./bg.png" alt="" />
+        <img src="/bg.png" alt="" />
       </div>
     </div>
   );
