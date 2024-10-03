@@ -7,7 +7,7 @@ function Navbar() {
     <nav>
       <div className="left">
         <a href="/" className="logo">
-          <img src="/logo.png" alt="" />
+          <img src="/react-es/logo.png" alt="" />
           <span>LamaEstate</span>
         </a>
         <a href="/">Home</a>
@@ -22,7 +22,7 @@ function Navbar() {
         </a>
         <div className="menuIcon">
           <img
-            src="/menu.png"
+            src="/react-es/menu.png"
             alt=""
             onClick={() => setOpen((prev) => !prev)}
           />

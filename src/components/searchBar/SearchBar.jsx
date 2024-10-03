@@ -45,7 +45,7 @@ function SearchBar() {
           placeholder="Max Price"
         />
         <button>
-          <img src="/search.png" alt="" />
+          <img src="/react-es/search.png" alt="" />
         </button>
       </form>
     </div>
