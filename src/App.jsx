@@ -7,19 +7,19 @@ import Layout from "./routes/Layout/layout";
 
 const router = createBrowserRouter([
   {
-    path: "/react-es",
+    path: "/",
     element: <Layout />,
     children: [
       {
-        path: "/react-es",
+        path: "/",
         element: <HomePage />,
       },
       {
-        path: "/react-es/list",
+        path: "/list",
         element: <ListPage />,
       },
       {
-        path: "/react-es/:id",
+        path: "/:id",
         element: <SinglePage />,
       },
     ],

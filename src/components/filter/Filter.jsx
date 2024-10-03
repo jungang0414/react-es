@@ -57,7 +57,7 @@ function Filter() {
           <input type="text" id="bedroom" name="bedroom" placeholder="any" />
         </div>
         <button>
-          <img src="/react-es/search.png" alt="" />
+          <img src="/search.png" alt="" />
         </button>
       </div>
     </div>

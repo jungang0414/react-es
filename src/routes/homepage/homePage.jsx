@@ -31,7 +31,7 @@ function HomePage() {
         </div>
       </div>
       <div className="imgContainer">
-        <img src="/react-es/bg.png" alt="" />
+        <img src="/bg.png" alt="" />
       </div>
     </div>
   );
