@@ -8,17 +8,17 @@ function Navbar() {
       <div className="left">
         <a href="/" className="logo">
           <img src="/logo.png" alt="" />
-          <span>LamaEstate</span>
+          <span>Taiwan Interest</span>
         </a>
-        <a href="/">Home</a>
-        <a href="/">About</a>
-        <a href="/">Contact</a>
-        <a href="/">Agents</a>
+        <a href="/">首頁</a>
+        <a href="/">列表</a>
+        <a href="/">關於</a>
+        <a href="/">聯絡</a>
       </div>
       <div className="right">
-        <a href="/">Sign in</a>
+        <a href="/">登入</a>
         <a href="/" className="register">
-          Sign up
+          註冊
         </a>
         <div className="menuIcon">
           <img
@@ -28,12 +28,12 @@ function Navbar() {
           />
         </div>
         <div className={open ? "menu active" : "menu"}>
-          <a href="/">Home</a>
-          <a href="/">About</a>
-          <a href="/">Contact</a>
-          <a href="/">Agents</a>
-          <a href="/">Sign in</a>
-          <a href="/">Sign up</a>
+          <a href="/">首頁</a>
+          <a href="/">列表</a>
+          <a href="/">關於</a>
+          <a href="/">聯絡</a>
+          <a href="/">登入</a>
+          <a href="/">註冊</a>
         </div>
       </div>
     </nav>

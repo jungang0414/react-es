@@ -6,7 +6,7 @@ function HomePage() {
     <div className="homePage">
       <div className="textContainer">
         <div className="wrapper">
-          <h1 className="title">Find Real Estate & Get Your Dream Place</h1>
+          <h1 className="title">尋找旅遊住宿最佳選擇</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
             explicabo suscipit cum eius, iure est nulla animi consequatur
