@@ -1,25 +1,26 @@
 import { useState } from "react";
 import "./navbar.scss";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const [open, setOpen] = useState(false);
   return (
     <nav>
       <div className="left">
-        <a href="/" className="logo">
+        <Link to={"/"} className="logo">
           <img src="/logo.png" alt="" />
           <span>Taiwan Interest</span>
-        </a>
-        <a href="/">首頁</a>
-        <a href="/">列表</a>
-        <a href="/">關於</a>
-        <a href="/">聯絡</a>
+        </Link>
+        <Link to={"/"}>首頁</Link>
+        <Link to={"#"}>列表</Link>
+        <Link to={"#"}>關於</Link>
+        <Link to={"#"}>聯絡</Link>
       </div>
       <div className="right">
-        <a href="/">登入</a>
-        <a href="/" className="register">
+        <Link to={"#"}>登入</Link>
+        <Link to={"#"} className="register">
           註冊
-        </a>
+        </Link>
         <div className="menuIcon">
           <img
             src="/menu.png"
@@ -28,12 +29,12 @@ function Navbar() {
           />
         </div>
         <div className={open ? "menu active" : "menu"}>
-          <a href="/">首頁</a>
-          <a href="/">列表</a>
-          <a href="/">關於</a>
-          <a href="/">聯絡</a>
-          <a href="/">登入</a>
-          <a href="/">註冊</a>
+          <Link to={"/"}>首頁</Link>
+          <Link to={"#"}>列表</Link>
+          <Link to={"#"}>關於</Link>
+          <Link to={"#"}>聯絡</Link>
+          <Link to={"#"}>登入</Link>
+          <Link to={"#"}>註冊</Link>
         </div>
       </div>
     </nav>
