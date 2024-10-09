@@ -12,7 +12,7 @@ function Navbar() {
           <span>Taiwan Interest</span>
         </Link>
         <Link to={"/"}>首頁</Link>
-        <Link to={"#"}>列表</Link>
+        <Link to={"/list"}>列表</Link>
         <Link to={"#"}>關於</Link>
         <Link to={"#"}>聯絡</Link>
       </div>
@@ -30,7 +30,7 @@ function Navbar() {
         </div>
         <div className={open ? "menu active" : "menu"}>
           <Link to={"/"}>首頁</Link>
-          <Link to={"#"}>列表</Link>
+          <Link to={"/list"}>列表</Link>
           <Link to={"#"}>關於</Link>
           <Link to={"#"}>聯絡</Link>
           <Link to={"#"}>登入</Link>

@@ -84,23 +84,22 @@ nav {
     }
 
     .menu {
-      position: absolute;
-      top: 0;
-      right: -50%;
-      background-color: black;
-      color: white;
-      height: 100vh;
-      width: 50%;
-      // 動畫效果
-      transition: all 1s ease;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      font-size: 24px;
+      display: none;
 
       &.active {
+        position: absolute;
+        top: 0;
         right: 0;
+        background-color: black;
+        color: white;
+        height: 100vh;
+        width: 50%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
       }
 
       @include sm {
